@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          body{
+       font-family: timesnewroman;
+       background-color: #83a989;
+       color: rgb(48, 41, 42);
+   }
+   table {
+       width: 50%;
+       border-collapse: collapse;
+   }
+   th, td{
+       border: 1px solid black;
+       padding: 8px;
+       text-align: left;
+   }
+   .container {
+            display: grid;
+            grid-template-columns: repeat(2, 2in);
+            grid-template-rows: repeat(2, 2in);
+            gap: 10px;
+        }
+        .container img {
+            width: 2in;
+            height:2in;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <h2>My Favorite Food</h2>
+    <!-- <table>
+        <tr>
+            <td>Adobo</td>
+            <td>Sinigang</td>
+            <td>Chapsoy</td>
+            <td>Bulalo</td>
+        </tr> -->
+        <div class="container">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.U4vSxE3qbgcAcckR81hpAgHaLu&pid=Api&P=0&h=180" alt="Image 1">
+            <img src="https://i.pinimg.com/736x/39/7f/5f/397f5f98fd89529823bf9222c9d13ccc.jpg" alt="Image 2">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.oAj3z-9uTg5Vu-lJlMyXBwHaE8&pid=Api&P=0&h=180" alt="Image 3">
+            <img src="https://i.pinimg.com/736x/7b/f0/76/7bf076c178613771aad63fa8191ca73e.jpg" alt="Image 4">
+        </div>
+</body>
+</html>

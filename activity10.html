@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Violet Evergarden</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            display: grid;
+            grid-template-rows: 20vh 80vh;
+            grid-template-columns: 25% 75%;
+            gap: 10px;
+            background: #3a3a3a; /* Dark vintage background */
+            color: #e5e5e5; /* Light text color for contrast */
+            height: 100vh;
+            overflow: hidden;
+        }
+        .top-frame {
+            grid-column: 1 / span 2;
+            background-image: url('https://i.pinimg.com/736x/be/06/7d/be067db5de7763e0603529928acf20bc.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #362323;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            border-bottom: 5px solid #8b5a5a; /* Vintage border color */
+        }
+        .left-frame, .right-frame {
+            background-color: #f4f1e8; /* Light vintage background for frames */
+            border-radius: 8px;
+            padding: 20px;
+            overflow-y: auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            color: #333; /* Dark text color for readability */
+        }
+        .left-frame {
+            grid-column: 1;
+        }
+        .right-frame {
+            grid-column: 2;
+        }
+        .frame-content {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .frame-content img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            border: 2px solid #d4b5b5; /* Vintage border around images */
+            margin-bottom: 15px;
+        }
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background-color: #730652;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <a href="myActivities.html" class="back-button">Back</a>
+    <div class="top-frame"></div>
+    <div class="left-frame">
+        <h2> The Story of An Hour</h2>
+        <div class="frame-content">
+            <img src="https://i.pinimg.com/736x/52/6f/57/526f5763a89277afcfabb07cfbdb8002.jpg" alt="">
+            <p>It was her sister Josephine who told her, in broken sentences;
+                 veiled hints that revealed in half concealing. 
+                 Her husband's friend Richards was there, too, near her. 
+                 It was he who had been in the newspaper office when intelligence of the railroad disaster was received, 
+                 with Brently Mallard's name leading the list of "killed."
+                  He had only taken the time to assure himself of its truth by a second telegram,
+                   and had hastened to forestall any less careful, less tender friend in bearing the sad message</p>
+        </div>
+    </div>
+    <div class="right-frame">
+        <h2>Two Military Executions</h2>
+        <div class="frame-content">
+            <p>In the spring of the year 1862 General Buell's big army lay in camp,
+                 licking itself into shape for the campaign which resulted in the victory at Shiloh. 
+                 It was a raw, untrained army, although some of its fractions had seen hard enough service,
+                  with a good deal of fighting, in the mountains of Western Virginia, and in Kentucky. 
+                  The war was young, and soldiering a new industry, imperfectly understood by the young American of the Period,
+                   who found some features of it not altogether to his liking. Chief among these was that essential part of discipline, subordination.
+                    To one imbued from infancy with the fascinating fallacy that all men are born equal,
+                     unquestioning submission to authority is not easily mastered, and the American volunteer in his "green and salad days" is among the worst known.
+                      That is how it happened that one of Buell's men, Private Bennett Story Greene, committed the indiscretion of striking his officer.
+                       Later in the war he would not have done that; like Sir Andrew Aguecheek, he would have "seen him damned" first.
+                        But time for reformation of his military manners was denied him: he was promptly arrested on complaint of the officer,
+                         tried by court-martial and sentenced to be shot.</p>
+        </div>
+    </div>
+</body>
+</html>
